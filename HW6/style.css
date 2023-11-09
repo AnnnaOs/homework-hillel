@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 40px 0;
+}
+
+.nav-list {
+   padding-left: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration-line: none; 
+    color: #000000;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.nav-link-first {
+    font-weight: 500px;
+    color: #34547A;
+    font-size: 16px; 
+    margin-left: 0;   
+}
+
+.title {
+    font-weight: 500px;
+    font-size: 48px;
+    color: #000000;
+}
+
+.text {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 20px;
+}
+
+.button {
+    width: 220px;
+    height: 60px;
+    background-color: #34547A;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+.link {
+    text-decoration-line: none; 
+    color: #FFFFFF;
+}
+
+.description {
+    font-size: 32px;
+    font-weight: 500px;
+    text-align: center;
+    color: #000000;
+}
+
+.desc-text {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    color: #727272;
+}
+
+.section-first {
+    margin: 70px auto;
+    text-align: center;
+}
+
+.projects {
+    background-color: #34547A;
+}
+
+.project {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project-list {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}
+
+.numbers,
+.n-projects {
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.section-second {
+    background-color: #EEEFF1;
+    text-align: center;
+}
+
+.footer {
+    background-color: #34547A;
+}
+
+.footer-title {
+    font-size: 21px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footer-text {
+    font-size: 13px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
