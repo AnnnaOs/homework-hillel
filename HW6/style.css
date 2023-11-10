@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: #EEEFF1;
-    padding-bottom: 100px;
+    padding: 60px 0 120px 0;
 }
 
 .container {
@@ -14,44 +14,37 @@ body {
     margin: 0 auto;
 }
 
-.navigation {
-    padding: 40px 0;
-}
-
-.nav-list {
-   padding-left: 0;
-}
-
 .nav-item {
     display: inline-block;
-    margin: 0 10px;
+    margin-right: 40px;
 }
 
 .nav-link {
     text-decoration-line: none; 
     color: #000000;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
 }
 
 .nav-link-first {
-    font-weight: 500px;
+    font-weight: 500;
     color: #34547A;
-    font-size: 16px; 
-    margin-left: 0;   
+    font-size: 16px;  
 }
 
 .title {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 48px;
     color: #000000;
+    margin-top: 100px;
 }
 
 .text {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     color: #727272;
-    padding-top: 20px;
+    margin-top: 40px;
+    line-height: 30px;
 }
 
 .button {
@@ -61,7 +54,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     padding-top: 20px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .link {
@@ -69,69 +62,74 @@ body {
     color: #FFFFFF;
 }
 
+.section-first {
+    text-align: center;
+    padding: 70px 0;
+}
+
 .description {
     font-size: 32px;
-    font-weight: 500px;
+    font-weight: 500;
     text-align: center;
     color: #000000;
 }
 
 .desc-text {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     text-align: center;
     color: #727272;
-}
-
-.section-first {
-    margin: 70px auto;
-    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
 }
 
 .projects {
     background-color: #34547A;
+    padding: 80px 0;
 }
 
 .project {
     display: inline-block;
-    margin-right: 10px;
-}
-
-.project-list {
     text-align: center;
-    padding: 50px 0;
 }
 
-.img {
-    height: 50px;
-    width: 50px;
-}
-
-.numbers,
-.n-projects {
+.img-text {
     color: #FFFFFF;
     display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 99px;
+}
+
+.img-text-last {
+    margin-right: 0;
 }
 
 .section-second {
     background-color: #EEEFF1;
-    text-align: center;
+    padding: 70px 0;
+}
+
+iframe {
+    display: block;
+    margin: 60px auto 0 auto;
 }
 
 .footer {
     background-color: #34547A;
+    padding: 40px 0;
 }
 
 .footer-title {
     font-size: 21px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #FFFFFF;
-    padding-top: 40px;
 }
 
 .footer-text {
     font-size: 13px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #FFFFFF;
-    padding-bottom: 40px;
+    margin-top: 15px;
 }
