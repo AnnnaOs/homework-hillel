@@ -114,6 +114,7 @@ body {
 }
 
 .button {
+    display: block;
     width: 148px;
     height: 56px;
     background-color: #402F2C;
@@ -134,18 +135,13 @@ body {
     padding-bottom: 109px;
 }
 
-.logo-container {
-    max-width: 1172px;
-    margin: 0 auto;
-}
-
 .logo-list {
     display: flex;
-    height: 113px;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    padding: 42px 0;
     margin: 130px 0;
 }
 
@@ -184,6 +180,7 @@ body {
 .wrapper-cards {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 130px;
 }
 
 .title-description {
@@ -206,25 +203,31 @@ body {
 }
 
 .link-buy {
+    display: inline-block;
     width: 137px;
     height: 56px;
     background-color: #402F2C;
     text-align: center;
     box-sizing: border-box;
-    padding: 16px 32px;
+    padding: 18px 32px;
     margin-right: 24px;
     color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .link-add {
+    display: inline-block;
     width: 137px;
     height: 56px;
     background-color: transparent;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
-    padding: 16px 32px;
+    padding: 18px 0;
     color: #685A52;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .buy-products {
@@ -232,6 +235,11 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 47px 44px 32px 32px;
+}
+
+.buttons-buy {
+    display: flex;
+    justify-content: space-between;
 }
 
 .price {
@@ -255,7 +263,6 @@ body {
 .statistic {
     display: flex;
     justify-content: space-evenly;
-    margin: 130px 0;
 }
 
 .numbers {
@@ -290,6 +297,7 @@ body {
 .perfect-beauty {
     display: flex;
     justify-content: space-between;
+    margin-top: 130px;
 }
 
 .perfect-beauty-text {
