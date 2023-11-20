@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.header__about {
+.header-about {
     display: flex;
     justify-content: space-between;
     align-items: center;
