@@ -44,7 +44,6 @@ body {
     background-color: #1485f5;
     border: 1px solid #0c68c4;
     border-bottom-left-radius: 5px;
-    overflow: hidden;
     font-size: 20px;
 }
 
@@ -71,14 +70,13 @@ body {
 .sub__list {
     display: none;
     position: absolute;
-    top: 168px;
-    left: 297px;
+    top: 0;
+    left: 100%;
     width: 300px;
     background-color: #1485f5;
     border: 1px solid #0c68c4;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    overflow: hidden;
     font-size: 20px;
 }
 
