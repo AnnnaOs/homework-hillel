@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wrapper {
+    background-color: #2b2b2b;
+}
+
+.container {
+    max-width: 315px;
+    margin: 0 auto;
+}
+
+.create-account__nav {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+@media screen and (max-width: 380px) { 
+    .create-account__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.create-account__form {
+    display: flex;
+    width: 315px;
+    padding: 30px 0px 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.create-account__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch; 
+}
+
+.create-account__title {
+    font-family: 'Work Sans';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+  
+.create-account__subtitle {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+  
+.typeforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+  
+.type-form {
+    display: flex;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #858584;
+    background:#FFF;
+}
+  
+.username {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #2b2b2b;
+}
+  
+.create-account__button {
+    display: flex;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #A259FF
+}
+  
+.create-account__link {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #3B3B3B;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+}
+    
+.footer__title {
+    font-family: 'Space Mono';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+    
+.footer__text {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #ccc;
+}
+    
+.nft-marketplace-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+    
+.additional-info__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.community-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.community-info__icons {
+    display: flex;
+    gap: 10px;
+}
+    
+.pages_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email {
+    width: 315px;
+    height: 46px;
+    color: #2b2b2b;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+    
+.subscribe-widget__form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    color: #FFF;
+}
+
+.subscribe-widget__button {
+    display: flex;
+    height: 46px;
+    padding: 16px 100px;
+    align-items: center;
+    align-self: stretch;
+    width: 315px;
+    border-radius: 20px;
+    background-color: #A259FF;
+}
+
+.img-button_footer {
+    margin-right: 12px;
+}
+
+.subscribe-button__link {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+  
+.subscribe-form-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.divider-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 40px;
+}
+    
+.divider-img {
+    position: relative;
+    max-width: 100%;
+    height: 1px;
+    object-fit: cover;
+}
+    
+.divider-text {
+    max-width: 100%;
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
